@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="image/coffee.jpg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Serene Sip</title>
-    <style>
-      body {
-        background-color: #f0e2c5;
-        color: #49281a;
-      }
-    </style>
   </head>
   <body>
     <!-- header section  -->
@@ -28,6 +29,120 @@
     </nav>
 
     <!-- menu section  -->
+    <section id="menu">
+      <h2>Our Menu</h2>
+
+      <div class="menu">
+        <h3>Coffee Selections</h3>
+        <div class="card">
+          <img src="image/americano.jpg" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h4 class="card-title">Americano</h4>
+            <p class="card-text">
+              - Strong and black coffee. <br />
+              Perfect for the bold coffee enthusiast. <br />
+              <span class="price">$2.50</span>
+            </p>
+            <button class="btn-order">Order</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="image/americano.jpg" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h4 class="card-title">Americano</h4>
+            <p class="card-text">
+              - Strong and black coffee. <br />
+              Perfect for the bold coffee enthusiast. <br />
+              <span class="price">$2.50</span>
+            </p>
+            <button class="btn-order">Order</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="image/americano.jpg" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h4 class="card-title">Americano</h4>
+            <p class="card-text">
+              - Strong and black coffee. <br />
+              Perfect for the bold coffee enthusiast. <br />
+              <span class="price">$2.50</span>
+            </p>
+            <button class="btn-order">Order</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="image/americano.jpg" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h4 class="card-title">Americano</h4>
+            <p class="card-text">
+              - Strong and black coffee. <br />
+              Perfect for the bold coffee enthusiast. <br />
+              <span class="price">$2.50</span>
+            </p>
+            <button class="btn-order">Order</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu">
+        <h3>Delicious Snacks</h3>
+
+        <div class="card">
+          <img src="image/snack.jpg" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h4 class="card-title">Classic Croissant</h4>
+            <p class="card-text">
+              - Light, flaky, and buttery. <br />
+              A timeless delight. <br />
+              <span class="price">$2.50</span>
+            </p>
+            <button class="btn-order">Order</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="image/snack.jpg" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h4 class="card-title">Classic Croissant</h4>
+            <p class="card-text">
+              - Light, flaky, and buttery. <br />
+              A timeless delight. <br />
+              <span class="price">$2.50</span>
+            </p>
+            <button class="btn-order">Order</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="image/snack.jpg" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h4 class="card-title">Classic Croissant</h4>
+            <p class="card-text">
+              - Light, flaky, and buttery. <br />
+              A timeless delight. <br />
+              <span class="price">$2.50</span>
+            </p>
+            <button class="btn-order">Order</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="image/snack.jpg" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h4 class="card-title">Classic Croissant</h4>
+            <p class="card-text">
+              - Light, flaky, and buttery. <br />
+              A timeless delight. <br />
+              <span class="price">$2.50</span>
+            </p>
+            <button class="btn-order">Order</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- about section  -->
     <section id="about">
@@ -70,27 +185,27 @@
       </p>
       <form action="">
         <div>
-          <label for=""> Your Name</label>
-          <input type="text" />
+          <label for="" class="form-label"> Your Name</label>
+          <input type="text" class="form-control" />
         </div>
 
         <div>
-          <label for="">Your Email</label>
-          <input type="email" />
+          <label for="" class="form-label">Your Email</label>
+          <input type="email" class="form-control" />
         </div>
 
         <div>
-          <label for="">Your Message</label>
-          <textarea name="" id=""></textarea>
+          <label for="" class="form-label">Your Message</label>
+          <textarea name="" id="" class="form-control"></textarea>
         </div>
 
-        <input type="submit" value="Send Message" />
+        <input type="submit" value="Send Message" class="btn-send" />
       </form>
     </section>
 
     <!-- footer section  -->
     <footer>
-      <p>copyright &copy; 2024. All rights reserved.</p>
+      <p>copyright &copy; 2025. All rights reserved.</p>
       <a href="#header">&uarr;</a>
     </footer>
   </body>
