@@ -17,9 +17,15 @@ body {
 
 /* header section  */
 header {
-  /* border: 2px solid #000; */
+  border: 1px solid #000;
   text-align: center;
   padding: 50px 0;
+  background-image: url(image/bgi.jpg), url(image/bg.jpg);
+  background-position: -4% center, 105% center;
+  background-size: 350px, 350px;
+  background-repeat: no-repeat, no-repeat;
+  position: relative;
+  z-index: 0;
 }
 
 header h1 {
@@ -50,7 +56,7 @@ header p {
 
 header a {
   font-family: "Lato", sans-serif;
-  display: block;
+  display: inline-block;
   width: 200px;
   height: 60px;
   margin: 0 auto;
@@ -68,7 +74,10 @@ header a {
 nav {
   /* border: 2px solid #000; */
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0;
+  background-color: #49281a;
+  position: sticky;
+  top: 0;
 }
 nav a {
   display: inline-block;
@@ -108,15 +117,20 @@ footer {
 .menu h3 {
   font-family: "Lato", sans-serif;
   color: #49281a;
-  margin-bottom: 20px;
+  margin: 20px 0;
   text-align: left;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .card {
   border: 1px solid #49281a;
   width: 250px;
   padding: 15px;
   border-radius: 9px;
-  display: inline-block;
+  /* display: inline-block; */
 }
 .card-img-top {
   max-width: 100%;
@@ -193,4 +207,15 @@ footer p {
   color: #49281a;
   text-align: center;
   font-size: 0.9rem;
+}
+
+footer a {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #49281a;
+  color: #f0e2c5;
+  padding: 15px;
+  border-radius: 9px;
+  text-decoration: none;
 }

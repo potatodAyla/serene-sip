@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="image/coffee.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="image/favicon.PNG" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Serene Sip</title>
@@ -18,7 +22,9 @@
     <header id="header">
       <h1>Welcome To Serene Sip</h1>
       <p>Indulge in the finest coffee experience crafted just for you.</p>
-      <a href="#menu">Explore Our Menu</a>
+      <div class="animate__animated animate__bounce">
+        <a href="#menu">Explore Our Menu</a>
+      </div>
     </header>
 
     <nav>
@@ -34,111 +40,114 @@
 
       <div class="menu">
         <h3>Coffee Selections</h3>
-        <div class="card">
-          <img src="image/americano.jpg" alt="" class="card-img-top" />
-          <div class="card-body">
-            <h4 class="card-title">Americano</h4>
-            <p class="card-text">
-              - Strong and black coffee. <br />
-              Perfect for the bold coffee enthusiast. <br />
-              <span class="price">$2.50</span>
-            </p>
-            <button class="btn-order">Order</button>
+        <div class="card-container">
+          <div class="card">
+            <img src="image/americano.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Americano</h4>
+              <p class="card-text">
+                - Strong and black coffee. <br />
+                Perfect for the bold coffee enthusiast. <br />
+                <span class="price">$2.50</span>
+              </p>
+              <button class="btn-order">Order</button>
+            </div>
           </div>
-        </div>
 
-        <div class="card">
-          <img src="image/americano.jpg" alt="" class="card-img-top" />
-          <div class="card-body">
-            <h4 class="card-title">Americano</h4>
-            <p class="card-text">
-              - Strong and black coffee. <br />
-              Perfect for the bold coffee enthusiast. <br />
-              <span class="price">$2.50</span>
-            </p>
-            <button class="btn-order">Order</button>
+          <div class="card">
+            <img src="image/americano.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Americano</h4>
+              <p class="card-text">
+                - Strong and black coffee. <br />
+                Perfect for the bold coffee enthusiast. <br />
+                <span class="price">$2.50</span>
+              </p>
+              <button class="btn-order">Order</button>
+            </div>
           </div>
-        </div>
 
-        <div class="card">
-          <img src="image/americano.jpg" alt="" class="card-img-top" />
-          <div class="card-body">
-            <h4 class="card-title">Americano</h4>
-            <p class="card-text">
-              - Strong and black coffee. <br />
-              Perfect for the bold coffee enthusiast. <br />
-              <span class="price">$2.50</span>
-            </p>
-            <button class="btn-order">Order</button>
+          <div class="card">
+            <img src="image/americano.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Americano</h4>
+              <p class="card-text">
+                - Strong and black coffee. <br />
+                Perfect for the bold coffee enthusiast. <br />
+                <span class="price">$2.50</span>
+              </p>
+              <button class="btn-order">Order</button>
+            </div>
           </div>
-        </div>
 
-        <div class="card">
-          <img src="image/americano.jpg" alt="" class="card-img-top" />
-          <div class="card-body">
-            <h4 class="card-title">Americano</h4>
-            <p class="card-text">
-              - Strong and black coffee. <br />
-              Perfect for the bold coffee enthusiast. <br />
-              <span class="price">$2.50</span>
-            </p>
-            <button class="btn-order">Order</button>
+          <div class="card">
+            <img src="image/americano.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Americano</h4>
+              <p class="card-text">
+                - Strong and black coffee. <br />
+                Perfect for the bold coffee enthusiast. <br />
+                <span class="price">$2.50</span>
+              </p>
+              <button class="btn-order">Order</button>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="menu">
         <h3>Delicious Snacks</h3>
-
-        <div class="card">
-          <img src="image/snack.jpg" alt="" class="card-img-top" />
-          <div class="card-body">
-            <h4 class="card-title">Classic Croissant</h4>
-            <p class="card-text">
-              - Light, flaky, and buttery. <br />
-              A timeless delight. <br />
-              <span class="price">$2.50</span>
-            </p>
-            <button class="btn-order">Order</button>
+        <div class="card-container">
+          <div class="card">
+            <img src="image/snack.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Classic Croissant</h4>
+              <p class="card-text">
+                - Light, flaky, and buttery. <br />
+                A timeless delight. <br />
+                <span class="price">$2.50</span>
+              </p>
+              <button class="btn-order">Order</button>
+            </div>
           </div>
-        </div>
 
-        <div class="card">
-          <img src="image/snack.jpg" alt="" class="card-img-top" />
-          <div class="card-body">
-            <h4 class="card-title">Classic Croissant</h4>
-            <p class="card-text">
-              - Light, flaky, and buttery. <br />
-              A timeless delight. <br />
-              <span class="price">$2.50</span>
-            </p>
-            <button class="btn-order">Order</button>
+          <div class="card">
+            <img src="image/snack.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Classic Croissant</h4>
+              <p class="card-text">
+                - Light, flaky, and buttery. <br />
+                A timeless delight. <br />
+                <span class="price">$2.50</span>
+              </p>
+              <button class="btn-order">Order</button>
+            </div>
           </div>
-        </div>
 
-        <div class="card">
-          <img src="image/snack.jpg" alt="" class="card-img-top" />
-          <div class="card-body">
-            <h4 class="card-title">Classic Croissant</h4>
-            <p class="card-text">
-              - Light, flaky, and buttery. <br />
-              A timeless delight. <br />
-              <span class="price">$2.50</span>
-            </p>
-            <button class="btn-order">Order</button>
+          <div class="card">
+            <img src="image/snack.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Classic Croissant</h4>
+              <p class="card-text">
+                - Light, flaky, and buttery. <br />
+                A timeless delight. <br />
+                <span class="price">$2.50</span>
+              </p>
+              <button class="btn-order">Order</button>
+            </div>
           </div>
-        </div>
 
-        <div class="card">
-          <img src="image/snack.jpg" alt="" class="card-img-top" />
-          <div class="card-body">
-            <h4 class="card-title">Classic Croissant</h4>
-            <p class="card-text">
-              - Light, flaky, and buttery. <br />
-              A timeless delight. <br />
-              <span class="price">$2.50</span>
-            </p>
-            <button class="btn-order">Order</button>
+          <div class="card">
+            <img src="image/snack.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Classic Croissant</h4>
+              <p class="card-text">
+                - Light, flaky, and buttery. <br />
+                A timeless delight. <br />
+                <span class="price">$2.50</span>
+              </p>
+              <button class="btn-order">Order</button>
+            </div>
           </div>
         </div>
       </div>
